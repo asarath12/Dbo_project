@@ -8,7 +8,7 @@ This project is a Python-based database management application that allows users
 - [Usage](#usage)
 - [Error Handling](#error-handling)
 - [Code Structure](#code-structure)
-- [Future Enhancements](#future-enhancements)
+- [Example Output](#example-output)
 
 ## Features
 - **Create Record**: Allows inserting new records into specified tables, ensuring the necessary constraints are met.
@@ -122,12 +122,70 @@ This function manages the application flow:
 - Takes user input for various operations.
 - Calls the appropriate methods from the DatabaseManager class based on the user’s choice.
 
-### Future Enhancements
+### Example Output
 
-- **User Authentication**: Add user login functionality to restrict access based on roles.
-- **Enhanced Validation**: Implement additional validation checks (e.g., format of inputs like phone numbers or dates).
-- **Search Functionality**: Allow users to search records based on specific column values (e.g., search by license plate).
-- **Logging**: Implement logging for auditing user actions and debugging purposes.
-- **GUI Interface**: Extend the application to include a graphical user interface for better user experience.
+Here's a screenshot of the application running:
 
+- **Create Record** :
+  
+  - Create record python :
+    
+     ![Database Manager Application - Example Output](pictures/create_record_py.jpeg)
+  
+  - Create record sql :
+    
+    ![Database Manager Application - Example Output](pictures/create_record_sql.jpeg)
 
+- **Read Record**
+  
+  - Read record python :
+ 
+    ![Database Manager Application - Example Output](pictures/read_record_py.jpeg)
+
+  - Read record sql :
+
+    ![Database Manager Application - Example Output](pictures/read_record_sql.jpeg)
+
+  - **Update Record**
+
+    - Update record python :
+      
+    ![Database Manager Application - Example Output](pictures/update_record_py.jpeg)
+
+    ![Database Manager Application - Example Output](pictures/update_record_options.jpeg)
+
+    - Update record sql :
+
+      - Before:
+
+           ![Database Manager Application - Example Output](pictures/update_record_before_sql.jpeg)
+
+      - After:
+
+           ![Database Manager Application - Example Output](pictures/update_record_after_sql.jpeg)
+
+   - **Delete Record**
+ 
+     - Delete record python:
+
+       ![Database Manager Application - Example Output](pictures/delete_record_py.jpeg)
+
+     - Delete record sql:
+
+       - Before:
+
+         ![Database Manager Application - Example Output](pictures/delete_record_before_sql.jpeg)
+
+       - After:
+      
+         ![Database Manager Application - Example Output](pictures/delete_record_after_sql.jpeg)
+
+   - **Error Handling**
+ 
+     - Case 1:
+
+       ![Database Manager Application - Example Output](pictures/error_handling_1.jpeg)
+
+     - Case 2:
+    
+       ![Database Manager Application - Example Output](pictures/error_handling_2.jpeg)
